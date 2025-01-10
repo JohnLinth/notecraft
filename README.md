@@ -56,7 +56,7 @@ NoteCraft is a comprehensive study management application built with Qt/C that h
 ### 3. Calendar
 - Weekly schedule view
 - Course block management
-- OBS calendar import support
+- OBS calendar import support (our school's calendar system)
 - Color-coded events
 
 ### 4. Grade Management
