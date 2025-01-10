@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomePage</class>
+ <widget class="QMainWindow" name="HomePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HomePage</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+	border-image: url(./Assets/learning_bg.jpg) stretch 0 0 0 0;
+	background-color: rgba(255,255,255,100);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="1" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <property name="leftMargin">
+         <number>9</number>
+        </property>
+        <property name="topMargin">
+         <number>9</number>
+        </property>
+        <property name="rightMargin">
+         <number>9</number>
+        </property>
+        <item row="1" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_right">
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QTableWidget" name="calendarTable">
+            <row>
+             <property name="text">
+              <string>06:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>07:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>08:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>09:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>10:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>11:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>12:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>13:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>14:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>15:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>16:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>17:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>18:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>19:00</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>20:00</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>TAG</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCommandLinkButton" name="quiz_button">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(200, 255, 255);
+font: bold 16px;</string>
+            </property>
+            <property name="text">
+             <string>Diese Quizzes sind heute fällig!!</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/resources/images/exclamation_mark_PNG13.png</normaloff>:/resources/images/exclamation_mark_PNG13.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>30</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="description">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="grid_left">
+          <item row="3" column="1" colspan="2">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Maximum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="1" colspan="2">
+           <widget class="QLabel" name="noteLabel">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="2">
+           <widget class="QLabel" name="welcome_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+font: 16px;</string>
+            </property>
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-style:italic; color:#0055ff;&quot;&gt;Herzlich Willkommen, &lt;br/&gt;Max Mustermann!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QFrame" name="frame">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>12</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">.QFrame
+{
+	background-color: #0277BD;
+	border-radius: 3px;
+	
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="font">
+                <font>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #FFFFFF</string>
+               </property>
+               <property name="text">
+                <string>LEVEL</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="lbl_home_exp__level">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #FFFFFF</string>
+               </property>
+               <property name="text">
+                <string>1</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QProgressBar" name="lbl_home_exp__bar">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>128</width>
+                 <height>16</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>11</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QProgressBar	 {
+	background-color: #039BE5;
+	border-radius: 3px;
+	color: white;
+}
+
+QProgressBar::chunk {
+	background-color: #FBC02D;
+	border-radius: 3px
+}</string>
+               </property>
+               <property name="value">
+                <number>0</number>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="format">
+                <string>%v | %m</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <layout class="QHBoxLayout" name="kursWahlLayout"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="kursHinzufuegenButton">
+            <property name="styleSheet">
+             <string notr="true">#kursHinzufuegenButton{
+	background-color: rgb(64, 224, 208);
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: beige;
+	font: bold 12px;
+	min-width: 10em;
+	padding: 4px;}
+#kursHinzufuegenButton:clicked{
+	background-color: rgb(64, 220, 200);
+    border-style: inset;
+}</string>
+            </property>
+            <property name="text">
+             <string>Kurs hinzufügen</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="NoteCraft_label">
+            <property name="text">
+             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:700; color:#5555ff;&quot;&gt;NoteCraft&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1" colspan="2">
+           <layout class="QGridLayout" name="notizen_liste">
+            <item row="0" column="0">
+             <layout class="QVBoxLayout" name="notizenLayout"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menuEdit">
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <property name="icon">
+     <iconset theme="folder"/>
+    </property>
+    <addaction name="action_bg"/>
+   </widget>
+   <widget class="QMenu" name="menuNavigation">
+    <property name="title">
+     <string>Navigation</string>
+    </property>
+    <addaction name="actionKalender"/>
+    <addaction name="actionQuiz"/>
+    <addaction name="actionNotenliste"/>
+   </widget>
+   <widget class="QMenu" name="menuLogo">
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="title">
+     <string>Logo</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/resources/images/notecraft_logo.png</normaloff>:/resources/images/notecraft_logo.png</iconset>
+    </property>
+   </widget>
+   <addaction name="menuLogo"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuNavigation"/>
+  </widget>
+  <action name="actionHome">
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionKalender">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/resources/images/calendar.png</normaloff>:/resources/images/calendar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kalendar</string>
+   </property>
+  </action>
+  <action name="actionQuiz">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/resources/images/quiz.png</normaloff>:/resources/images/quiz.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quiz</string>
+   </property>
+  </action>
+  <action name="actionNotenliste">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/resources/images/pen.png</normaloff>:/resources/images/pen.png</iconset>
+   </property>
+   <property name="text">
+    <string>Notenliste</string>
+   </property>
+  </action>
+  <action name="actionNotizen">
+   <property name="text">
+    <string>Notizen</string>
+   </property>
+  </action>
+  <action name="action_bg">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/resources/images/change_bg.png</normaloff>:/resources/images/change_bg.png</iconset>
+   </property>
+   <property name="text">
+    <string>Change Background Image</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

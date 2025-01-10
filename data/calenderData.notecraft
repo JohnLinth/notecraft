@@ -1,0 +1,84 @@
+ID: 0
+Location: Raum 101
+Date Start: 2023-12-11T08:30:00
+Date End: 2023-12-11T10:00:00
+Name: Algorithmen
+Block Color Hex: #3498DB
+
+ID: 1
+Location: Chemie Labor
+Date Start: 2023-12-12T08:45:00
+Date End: 2023-12-12T10:30:00
+Name: Naturwissenschaftliches Labor
+Block Color Hex: #F39C12
+
+ID: 2
+Location: Cafeteria
+Date Start: 2023-12-13T11:45:00
+Date End: 2023-12-13T12:30:00
+Name: Mittagspause
+Block Color Hex: #27AE60
+
+ID: 3
+Location: Geschichtsraum
+Date Start: 2023-12-14T09:30:00
+Date End: 2023-12-14T11:00:00
+Name: Datenbanken
+Block Color Hex: #9B59B6
+
+ID: 4
+Location: Physik Labor
+Date Start: 2023-12-15T09:45:00
+Date End: 2023-12-15T11:30:00
+Name: Robotik
+Block Color Hex: #FF5733
+
+ID: 5
+Location: Bibliothek
+Date Start: 2023-12-16T08:00:00
+Date End: 2023-12-16T09:45:00
+Name: Software Engineering
+Block Color Hex: #2ECC71
+
+ID: 6
+Location: Kunstraum
+Date Start: 2023-12-12T14:00:00
+Date End: 2023-12-12T15:30:00
+Name: Webentwicklung
+Block Color Hex: #F1C40F
+
+ID: 7
+Location: Sporthalle
+Date Start: 2023-12-12T16:00:00
+Date End: 2023-12-12T17:30:00
+Name: E-Sport-Club
+Block Color Hex: #E74C3C
+
+ID: 8
+Location: Musikraum
+Date Start: 2023-12-14T12:00:00
+Date End: 2023-12-14T13:30:00
+Name: Multimedia-Programmierung
+Block Color Hex: #8E44AD
+
+ID: 9
+Location: Labor 201
+Date Start: 2023-12-15T13:00:00
+Date End: 2023-12-15T14:30:00
+Name: Cybersicherheit
+Block Color Hex: #1ABC9C
+
+ID: 10
+Location: Computerraum
+Date Start: 2023-12-15T15:00:00
+Date End: 2023-12-15T16:30:00
+Name: Programmierworkshop
+Block Color Hex: #EC7063
+
+ID: 11
+Location: Auditorium
+Date Start: 2023-12-16T11:00:00
+Date End: 2023-12-16T12:30:00
+Name: Gastredner
+Block Color Hex: #3498DB
+

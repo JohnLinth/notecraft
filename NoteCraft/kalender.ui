@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Kalender</class>
+ <widget class="QDialog" name="Kalender">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>874</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="calendarLabel">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>WOCHENKALENDER</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::RichText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="leftButton">
+       <property name="text">
+        <string>&lt;&lt;&lt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="calendarWeekLabel">
+       <property name="text">
+        <string>KW</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="rightButton">
+       <property name="text">
+        <string>&gt;&gt;&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="calendarTable">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <row>
+      <property name="text">
+       <string>06:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>07:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>06:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>9:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>10:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>11:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>12:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>13:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>14:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>15:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>16:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>17:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>18:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>19:00</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>20:00</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Montag</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Dienstag</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Mittwoch</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Donnerstag</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Freitag</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Samstag</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Sonntag</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="addBlockButton">
+       <property name="text">
+        <string>Block hinzufügen</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="updateButton">
+       <property name="text">
+        <string>Aktualisieren</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="obsImportButton">
+       <property name="text">
+        <string>Import Von OBS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Speichern</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="loadButton">
+       <property name="text">
+        <string>Laden</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

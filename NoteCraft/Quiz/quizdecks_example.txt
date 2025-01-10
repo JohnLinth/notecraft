@@ -1,0 +1,11 @@
+EasyMath;4
+0;1 + 1 = ?;2
+0;2 x 2 = ?;4
+0;5 / 1 = ?;5
+0;99 + 0 = ?;99
+English;5
+0;Apple;Apfel
+0;Time;Zeit
+0;Quiz;Quiz
+0;Water;Wasser
+0;Car;Auto
