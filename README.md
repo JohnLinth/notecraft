@@ -1,6 +1,10 @@
 # NoteCraft
 
-Software Engineering course project (Wintersemester 23, Hochschule Darmstadt) developed with a 4-member team to learn agile development and project management techniques. The code is unoptimized and outdated, reflecting my past practices and knowledge (I was a beginner at the time). Not suitable for production (no development build). My primary responsibility was the Calendar, though I contributed to various parts to ensure functionality.
+Software Engineering course project (Wintersemester 23, Hochschule Darmstadt) developed with a 4-member team to learn agile development and project management techniques. 
+
+Was developed in Qt/C++ with QtWidgets and the primary language used was German. 
+
+The code is unoptimized and outdated, reflecting my past practices and knowledge (I was a beginner at the time). Not suitable for production (no development build). My primary responsibility was the Calendar, though I contributed to various parts to ensure functionality.
 
 ## Table of Contents
 - [Features](#features)
@@ -17,7 +21,7 @@ Software Engineering course project (Wintersemester 23, Hochschule Darmstadt) de
   - [Prerequisites](#prerequisites)
   - [Build Steps](#build-steps)
 
-NoteCraft is a comprehensive study management application built with Qt/C that helps students organize their academic life. It combines note-taking, quiz management, calendar scheduling, and grade tracking functionalities in one cohesive platform. The primary language used was German.
+NoteCraft is a comprehensive study management application built with Qt/C that helps students organize their academic life. It combines note-taking, quiz management, calendar scheduling, and grade tracking functionalities in one cohesive platform.
 
  ## Screenshots
  
